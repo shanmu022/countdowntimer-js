@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Playwrite+CU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway',sans-serif;
+}
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    flex-direction: column;  
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)),url(/scr/flower.jpg);
+    color:#ffffff;
+    background-size: cover;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+    gap: 10px;    
+}
+
+.box{   
+    padding: 10px;
+    width: 50px;
+    background:linear-gradient(rgb(206, 134, 254),rgba(255, 54, 54, 0.708));
+}
+.container{
+    margin: auto;
+    background-color: rgba(186, 252, 6, 0.432); 
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    width: 50%; 
+    text-align: center;
+}
+
